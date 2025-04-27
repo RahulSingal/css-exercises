@@ -1,6 +1,29 @@
+/* ============= BOX MODEL ============= //
+// 
+// Margin       | e.g. margin: 10px 10px 10px 10px (top | right | bottom | left)
+// Border       | e.g. border: 2px dotted green
+// Padding      | e.g. padding: 10px (shorthand)
+// Content      | 
+// 
+*/
+
 .container .text {
     background-color: yellow;
     color: red;
     font-size: 20px;
     text-align: center;
+}
+
+* {
+    outline: 2px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    height: 100px;
+    padding: 16px;
+    border: 5px solid black;
 }
